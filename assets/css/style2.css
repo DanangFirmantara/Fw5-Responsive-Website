@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;300;600;700;900&family=Playfair+Display:wght@400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700;900&family=Nunito:wght@400;500;600;700;900&family=Playfair+Display:wght@400;500;700;800;900&display=swap');
+
+body{
+   font-family: 'Nunito', Times, serif;
+}
+
+.navbar-content{
+   padding: 82px 0;
+}
+
+.brand{
+   width: 41px;
+   height: 41px;
+}
+
+.icon{
+   font-size: 40px;
+}
+
+.icon-image{
+   width: 66px;
+   height: 66px;
+   border: none;
+}
+
+.yellow{
+   color: rgba(255, 205, 97, 1);
+}
+
+.active{
+   color: black;
+}
+
+
+.message .notif-icon{
+   position: absolute;
+   width: 20px;
+   height: 20px;
+   background-color: rgba(255, 205, 97, 1);
+   color: none;
+   top: 0;
+   left: 0;
+   border-radius: 10px;
+   align-items: center;
+   justify-content: center;
+   font-size: 10px;
+   border: none;
+}
+
+.form-control{
+   padding-left: 3rem;
+}
+
+.button-height{
+   min-height: 72px;
+}
+
+.rounded {
+   border-radius: 10px!important;
+}
+
+.pd-heading{
+   font-weight: 700;
+   font-family: 'Playfair Display',Times, serif;
+   font-weight: 36px;
+}
+
+.mulish{
+   font-family: 'Mulish',Times,serif,serif;
+   font-size: 19px;
+   font-weight: 700;
+}
+.mulish-normal{
+   font-size: 18px;
+   line-height: 28px;
+   font-weight: 300;
+}
+
+.mb-6{
+   margin-bottom: 6rem !important;
+}
+
+a{
+   text-decoration: unset;
+}
+
+.text-orange{
+   color: rgba(251, 143, 29, 1);
+}
+
+.img-thumbnail{
+   width: 261px;
+   height: 332px;
+   border: unset;
+   background-size: cover;
+   background-position: center;
+}
+
+.img-1{
+   background-image: url(/assets/image/image\ 1.png);
+}
+
+footer{
+   min-height: 470px;
+   
+}
+
+.grey{
+   background-color: rgba(249, 249, 251, 1);
+}
+
+.pt-6{
+   padding-top: 4.5rem!important;
+}
+
+footer ul{
+   list-style-type: none;
+   padding-left: 0;
+   font-size: 19px;
+   line-height: 38px;
+   font-family: 'Mulish', Times,serif;
+}
+
+.underline{
+   border-bottom: 1px solid rgba(196, 196, 196, 1);
+}
