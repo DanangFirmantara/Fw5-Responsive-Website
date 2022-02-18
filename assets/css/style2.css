@@ -110,7 +110,30 @@ a{
 .img-4{
    background-image: url(/assets/image/image\ 4.png);
 }
-
+.img-5{
+   background-image: url(/assets/image/image\ 5.png);
+}
+.img-6{
+   background-image: url(/assets/image/image\ 6.png);
+}
+.img-7{
+   background-image: url(/assets/image/motorbike1.png);
+}
+.img-8{
+   background-image: url(/assets/image/motorbike2.png);
+}
+.img-9{
+   background-image: url(/assets/image/bike1.png);
+}
+.img-10{
+   background-image: url(/assets/image/bike2.png);
+}
+.img-11{
+   background-image: url(/assets/image/bike3.png);
+}
+.img-12{
+   background-image: url(/assets/image/bike4.png);
+}
 footer{
    min-height: 470px;
    
