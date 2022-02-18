@@ -1,0 +1,17 @@
+{
+  "name": "fw5-responsive-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "response-website"
+  ],
+  "author": "Danang Firmantara",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^13.0.2"
+  }
+}
