@@ -101,6 +101,15 @@ a{
 .img-1{
    background-image: url(/assets/image/image\ 1.png);
 }
+.img-2{
+   background-image: url(/assets/image/image\ 3.png);
+}
+.img-3{
+   background-image: url(/assets/image/login-page1.png);
+}
+.img-4{
+   background-image: url(/assets/image/image\ 4.png);
+}
 
 footer{
    min-height: 470px;
