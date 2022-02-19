@@ -1,13 +1,113 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Vehicle Detail</title>
-   
-</head>
-<body>
-   
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vehicle Detail</title>
+    <!-- CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+      integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custome Css -->
+    <link rel="stylesheet" href="/assets/css/style2.css" />
+  </head>
+  <body>
+    <div id="navbar-user"></div>
+    <main>
+      <div class="container">
+        <a class="d-flex align-items-center mb-5" href="./vehicle-type.html">
+          <i class="fa-solid fa-chevron-left icon dark fs-0 me-3"></i>
+          <div class="fs-1 fw-bold text-dark">Detail</div>
+        </a>
+        <div class="row mb-5">
+          <div class="col-7 g-0">
+            <div class="pe-5">
+              <div class="mb-5">
+                <div class="img-banner img-12 rounded"></div>
+              </div>
+              <div class="d-flex justify-content-between align-items-center">
+                <i class="fa-solid fa-chevron-left icon dark"></i>
+                <div class="img-slide img-12 rounded"></div>
+                <div class="img-slide img-12 rounded"></div>
+                <i class="fa-solid fa-chevron-right icon dark"></i>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <h1 class="pd-bolder mb-3">Fixie Gray Only</h1>
+            <h3 class="pd-bolder fw-normal fs-2 mb-3">Yogyakarta</h3>
+            <div class="fs-4 green fw-bold">Available</div>
+            <div class="fs-4 text-danger fw-light mb-3">No prepayment</div>
+            <ul class="lh-base fs-4 fw-light mb-4">
+              <li>Capacity : 1 Person</li>
+              <li>Type : Bike</li>
+              <li>Reservation before 2 PM</li>
+            </ul>
+            <div class="pd-bolder fs-1 d-flex justify-content-center pt-2 mb-6">
+              Rp. 78.000/day
+            </div>
+            <div class="d-flex justify-content-between">
+              <button class="icon-plus rounded bg-yellow">+</button>
+              <div class="fw-bolder fs-0">2</div>
+              <button class="icon-plus rounded bg-yellow">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-between row">
+          <div class="col-5">
+            <button class="button-height button-dark w-100 fw-bolder fs-4 shadow-dark">
+              Chat Admin
+            </button>
+          </div>
+          <div class="col-4">
+            <button class="button-height button-yellow w-100 fw-bolder fs-4 shadow-yellow">
+              Reservation
+            </button>
+          </div>
+          <div class="col-3">
+            <button class="button-height button-dark w-100 fw-bolder fs-4 shadow-dark">
+              <div class="d-flex align-items-center justify-content-center"><i class="fa-solid fa-heart me-4 fs-0"></i>Like</div>
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="footer"></div>
+    <!-- Jquery : digunakan untuk menghubungkan file setiap dokumen -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $.get("./navbar-user.html", (res) => {
+          $("#navbar-user").html(res);
+        });
+        $.get("./footer-1.html", (res) => {
+          $("#footer").html(res);
+        });
+      });
+    </script>
+  </body>
 </html>
