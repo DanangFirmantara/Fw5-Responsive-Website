@@ -252,3 +252,11 @@ ul{
    font-size: 48px;
    
 }
+
+.move-1{
+   margin-top: -1.25rem;
+}
+
+.border-grey{
+   border-color: rgba(128, 145, 142, 1);
+}

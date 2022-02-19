@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reservation</title>
+    <!-- CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+      integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custome Css -->
+    <link rel="stylesheet" href="/assets/css/style2.css" />
+  </head>
+  <body>
+    <div id="navbar-user"></div>
+    <div class="container">
+      <div class="d-flex align-items-center mb-5" href="./vehicle-type.html">
+        <a class="fa-solid fa-chevron-left icon dark fs-0 me-3"></a>
+        <div class="fs-1 fw-bold text-dark">Reservation</div>
+      </div>
+      <div class="row mb-5">
+        <div class="col-7">
+          <div class="pe-5">
+            <div class="img-banner img-12 rounded"></div>
+          </div>
+        </div>
+        <div class="col move-1">
+          <div class="pd-bolder">Fixie - Gray Only</div>
+          <div class="pd-bolder fs-1 fw-light mb-3">Yogyakarta</div>
+          <div
+            class="w-100 border border-3 border-grey rounded p-3 lh-base shadow mb-4"
+          >
+            <div class="px-4">
+              <div class="fs-4">Qt : 2 bikes</div>
+              <div class="fs-4 text-muted fw-bold">No Prepayment</div>
+            </div>
+          </div>
+          <div
+            class="w-100 border border-3 border-grey rounded p-3 lh-base shadow"
+          >
+            <div class="px-4">
+              <div class="fw-bold fs-4">Details:</div>
+              <div class="fs-4">1 bike : Rp. 78.000</div>
+              <div class="fs-4">1 bike : Rp. 78.000</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-between align-items-center mb-5">
+        <div class="col">
+          <div class="fs-1 fw-bold">Reservation :</div>
+        </div>
+        <div class="col-4">
+          <div
+            class="border border-5 w-100 rounded border-grey fs-4 text-center shadow p-4 fw-bold text-muted"
+          >
+            Start Date
+          </div>
+        </div>
+        <div class="col-4">
+          <div
+            class="border border-5 w-100 rounded border-grey fs-4 text-center shadow p-4 fw-bold text-muted"
+          >
+            Return Date
+          </div>
+        </div>
+      </div>
+      <div
+        class="border border-5 w-100 p-4 text-center rounded border-grey pd-heading shadow mb-4"
+      >
+        Total : Rp. 178.000
+      </div>
+      <div
+        class="button-yellow text-center w-100 shadow-yellow p-4 fw-bolder fs-4 mb-4"
+      >
+        Go To Payment
+      </div>
+      <div id="footer"></div>
+    </div>
+
+    <!-- Jquery : digunakan untuk menghubungkan file setiap dokumen -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $.get("./navbar-user.html", (res) => {
+          $("#navbar-user").html(res);
+        });
+        $.get("./footer-1.html", (res) => {
+          $("#footer").html(res);
+        });
+      });
+    </script>
+  </body>
+</html>
