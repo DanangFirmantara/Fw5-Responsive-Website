@@ -51,40 +51,136 @@
           <a href="#"><h5 class="text-orange">view all ></h5></a>
         </div>
         <div class="d-flex justify-content-between mb-6">
-          <div class="img-thumbnail rounded img-1"></div>
-          <div class="img-thumbnail rounded img-2"></div>
-          <div class="img-thumbnail rounded img-3"></div>
-          <div class="img-thumbnail rounded img-4"></div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-1"></div>
+            <div class="card-name">
+              <div>Merapi</div>
+              <div class="text-muted">Yogyakarta</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-2"></div>
+            <div class="card-name">
+              <div>Teluk Bogam</div>
+              <div class="text-muted">Kalimantan</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-3"></div>
+            <div class="card-name">
+              <div>Bromo</div>
+              <div class="text-muted">Malang</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-4"></div>
+            <div class="card-name">
+              <div>Malioboro</div>
+              <div class="text-muted">Yogyakarta</div>
+            </div>
+          </div>
         </div>
         <div class="d-flex justify-content-between align-items-center mb-5">
           <h1 class="pd-heading">Cars</h1>
           <a href="#"><h5 class="text-orange">view all ></h5></a>
         </div>
         <div class="d-flex justify-content-between mb-6">
-          <div class="img-thumbnail rounded img-1"></div>
-          <div class="img-thumbnail rounded img-5"></div>
-          <div class="img-thumbnail rounded img-3"></div>
-          <div class="img-thumbnail rounded img-6"></div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-1"></div>
+            <div class="card-name">
+              <div>Van</div>
+              <div class="text-muted">Yogyakarta</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-5"></div>
+            <div class="card-name">
+              <div>Lamborghini</div>
+              <div class="text-muted">South Jakarta</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-3"></div>
+            <div class="card-name">
+              <div>Jeep</div>
+              <div class="text-muted">Malang</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-6"></div>
+            <div class="card-name">
+              <div>White Jeep</div>
+              <div class="text-muted">Kalimantan</div>
+            </div>
+          </div>
         </div>
         <div class="d-flex justify-content-between align-items-center mb-5">
           <h1 class="pd-heading">Motorbike</h1>
           <a href="#"><h5 class="text-orange">view all ></h5></a>
         </div>
         <div class="d-flex justify-content-between mb-6">
-          <div class="img-thumbnail rounded img-7"></div>
-          <div class="img-thumbnail rounded img-2"></div>
-          <div class="img-thumbnail rounded img-8"></div>
-          <div class="img-thumbnail rounded img-4"></div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-7"></div>
+            <div class="card-name">
+              <div>Vespa</div>
+              <div class="text-muted">Yogyakarta</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-2"></div>
+            <div class="card-name">
+              <div>Honda KLX</div>
+              <div class="text-muted">Kalimantan</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-8"></div>
+            <div class="card-name">
+              <div>Honda</div>
+              <div class="text-muted">Malang</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-4"></div>
+            <div class="card-name">
+              <div>Matic Bike</div>
+              <div class="text-muted">Yogyakarta</div>
+            </div>
+          </div>
         </div>
         <div class="d-flex justify-content-between align-items-center mb-5">
           <h1 class="pd-heading">Bike</h1>
           <a href="#"><h5 class="text-orange">view all ></h5></a>
         </div>
         <div class="d-flex justify-content-between mb-2">
-          <div class="img-thumbnail rounded img-9"></div>
-          <div class="img-thumbnail rounded img-10"></div>
-          <div class="img-thumbnail rounded img-11"></div>
-          <div class="img-thumbnail rounded img-12"></div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-9"></div>
+            <div class="card-name">
+              <div>Fixie</div>
+              <div class="text-muted">Yogyakarta</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-10"></div>
+            <div class="card-name">
+              <div>Sport Bike</div>
+              <div class="text-muted">Kalimantan</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-11"></div>
+            <div class="card-name">
+              <div>Onthel</div>
+              <div class="text-muted">Malang</div>
+            </div>
+          </div>
+          <div class="position-relative d-flex">
+            <div class="img-thumbnail rounded img-12"></div>
+            <div class="card-name">
+              <div>Fixie Gray</div>
+              <div class="text-muted">Yogyakarta</div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -100,9 +196,9 @@
         $.get("./navbar-user.html", (res) => {
           $("#navbar-user").html(res);
         });
-        $.get("./footer-1.html", (res) =>{
-           $("#footer").html(res);
-        })
+        $.get("./footer-1.html", (res) => {
+          $("#footer").html(res);
+        });
       });
     </script>
   </body>

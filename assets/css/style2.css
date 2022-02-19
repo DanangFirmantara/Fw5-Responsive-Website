@@ -39,9 +39,9 @@ body{
    width: 20px;
    height: 20px;
    background-color: rgba(255, 205, 97, 1);
-   color: none;
-   top: 0;
-   left: 0;
+   color: black;
+   top: -5px;
+   left: -10px;
    border-radius: 10px;
    align-items: center;
    justify-content: center;
@@ -157,4 +157,17 @@ footer ul{
 
 .underline{
    border-bottom: 1px solid rgba(196, 196, 196, 1);
+}
+
+.card-name{
+   position: absolute;
+   min-width: 120px;
+   min-height: 56px;
+   font-weight: 600;
+   font-size: 17px;
+   background-color: white;
+   border-top-right-radius: 10px;
+   bottom: 0;
+   left: 0;
+   padding-top:1.5rem;
 }
