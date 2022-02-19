@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <!-- CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+      integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custome Css -->
+    <link rel="stylesheet" href="/assets/css/style2.css" />
+  </head>
+  <body>
+     <div id="navbar-user"></div>
+     <main>
+        <div class="container">
+         <div class="d-flex align-items-center mb-5" href="./vehicle-type.html">
+            <a class="fa-solid fa-chevron-left icon dark fs-0 me-3"></a>
+            <div class="fs-1 fw-bold text-dark">Payment</div>
+        </div>
+        <div class="row mb-5">
+           <div class="col-5">
+              <div class="img-banner-3 img-12 rounded mb-4"></div>
+               <div class="border border-3 py-4 border-grey rounded mb-4 ">
+                  <div class="fw-bold fs-4 ps-5">Quantity : 2 bikes</div>
+               </div>
+               <div class="border border-3 py-4 border-grey rounded ">
+                  <div class="fw-bolder fs-4 ps-5">Order details :</div>
+                  <div class="ps-5 fs-4">1 bike : Rp. 78.000</div>
+                  <div class="ps-5 fs-4">1 bike : Rp. 78.000</div>
+                  <div class="fw-bolder fs-4 ps-5 mt-3">Total : 178.000</div>
+               </div>
+           </div>
+           <div class="col">
+              <div class="pd-bolder">Fixie - Gray Only</div>
+              <div class="pd-heading fw-light fs-1 mb-3">Yogyakarta</div>
+              <div class="grey-2 fw-bold fs-4 mb-3">No Prepayment</div>
+              <div class="pd-heading fs-1 mb-3">#FG1209878YZS</div>
+              <button class="button-yellow fw-bold fs-4 p-1 mb-4">
+                 <div class="px-2">Copy booking code</div>
+              </button>
+              <div class="border border-3 py-4 border-grey rounded mb-4 ">
+                 <div class="d-flex justify-content-between">
+                  <div class="fw-bold fs-4 ps-5">
+                     Reservation Date :
+                  </div>
+                  <div class="dark fs-4 pe-6">Jan 18 2021</div>
+                 </div>
+            </div>
+            <div class="border border-3 py-4 border-grey rounded ">
+               <div class="fw-bolder fs-4 ps-5">Identity :</div>
+               <div class="ps-5 fs-4">Samantha Doe (+6290987682)</div>
+               <div class="ps-5 fs-4">samanthadoe@mail.com</div>
+            </div>
+           </div>
+        </div>
+        <div class="row d-flex justify-content-between align-items-center mb-6">
+           <div class="col-3"> 
+               <div class="fw-bold fs-2 ">Payment code :</div>  
+            </div>
+           <div class="col">
+              <div class="border border-grey border-3 fs-4 fw-bold d-flex justify-content-between py-4 rounded d-flex align-items-center px-5">
+               <div class="">#FG1209878YZS</div>
+               <div class="button-dark px-4"> Copy</div>
+              </div>
+           </div>
+           <div class="col-4">
+              <div class="border border-grey border-3 fs-4 fw-bold px-5 py-4 d-flex justify-content-between align-items-center rounded">
+               <div class="grey-2">Select payment method</div>
+               <div class="fa-solid fa-chevron-down"></div>
+             </div>
+           </div>
+        </div>
+        <div class="button-yellow shadow-yellow py-4 d-flex justify-content-center fw-bolder fs-4">
+           <div class="fw-bolder">Finish payment :</div>
+           <div class="text-danger fw-bolder">59:30</div>
+        </div>
+     </main>
+     <div id="footer"></div>
+    <!-- Jquery : digunakan untuk menghubungkan file setiap dokumen -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $.get("./navbar-user.html", (res) => {
+          $("#navbar-user").html(res);
+        });
+        $.get("./footer-1.html", (res) => {
+          $("#footer").html(res);
+        });
+      });
+    </script>
+  </body>
+</html>
