@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>History</title>
+    <!-- CSS Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/css/bootstrap.min.css"
+      integrity="sha512-GQGU0fMMi238uA+a/bdWJfpUGKUkBdgfFdgBm72SUQ6BeyWjoY/ton0tEjH+OSH9iP4Dfh+7HM0I9f5eR0L/4w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- JS Bootstrap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-pax4MlgXjHEPfCwcJLQhigY7+N8rt6bVvWLFyUMuxShv170X53TRzGPmPkZmGBhk+jikR8WBM4yl7A9WMHHqvg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- custome Css -->
+    <link rel="stylesheet" href="/assets/css/style2.css" />
+  </head>
+  <body>
+    <div id="navbar-user"></div>
+    <main>
+      <div class="container">
+        <div class="row d-flex justify-content-between g-0">
+          <div class="col">
+            <div class="row g-0">
+              <div class="d-flex position-relative col">
+                <div
+                  class="w-100 border border-3 border-grey bg-grey text-muted rounded py-3 px-5 fs-4"
+                >
+                  Search History
+                </div>
+                <a
+                  href="/vehicle-detail.html"
+                  class="fa-solid fa-magnifying-glass icon position-absolute icon-search text-dark"
+                ></a>
+              </div>
+              <div
+                class="col-1 d-flex justify-content-center align-items-center"
+              >
+                <div class="">
+                  <div>delete</div>
+                  <div class="icon-check me-0"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-3 text-center">
+            <div
+              class="px-4 py-3 d-flex justify-content-center flex-column border border-3 border-grey rounded"
+            >
+              <div class="text-center pd-heading fw-bolder fs-4 py-5">
+                New Arrival
+              </div>
+              <div class="position-relative d-flex mb-4">
+                <div class="img-scroll rounded img-5"></div>
+                <div class="card-name-2">
+                  <div>Lamborghini</div>
+                  <div class="text-muted">South Jakarta</div>
+                </div>
+              </div>
+              <div class="position-relative d-flex mb-5">
+               <div class="img-scroll rounded img-6"></div>
+               <div class="card-name-2">
+                 <div>White Jeep</div>
+                 <div class="text-muted">Kalimantan</div>
+               </div>
+             </div>
+
+              <div class="">
+                <a href="" class="fs-4 text-muted">View more</a>
+              </div>
+              <div class="fa-solid fa-chevron-down fs-1"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <div id="footer"></div>
+    <!-- Jquery : digunakan untuk menghubungkan file setiap dokumen -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $.get("./navbar-user.html", (res) => {
+          $("#navbar-user").html(res);
+        });
+        $.get("./footer-1.html", (res) => {
+          $("#footer").html(res);
+        });
+      });
+    </script>
+  </body>
+</html>
