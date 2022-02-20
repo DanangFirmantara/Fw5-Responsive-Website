@@ -50,7 +50,10 @@ body{
    width: 20px;
    height: 20px;
 }
-
+.icon-circle-2{
+   width: 40px;
+   height: 40px;
+}
 
 .yellow{
    color: rgba(255, 205, 97, 1);
@@ -128,7 +131,25 @@ body{
    color: white;
    border:none;
 }
+.button-white{
+   border-radius: 10px;
+   background-color: white;
+   border: 1px solid rgba(255, 205, 97, 1);
+   color: rgba(57, 57, 57, 1);
+}
 
+.button-width{
+   min-width: 132px;
+}
+.button-width-2{
+   width: 220px;
+}
+.button-width-3{
+   width: 33px;
+}
+.button-width-4{
+   width: 180px;
+}
 .shadow-yellow{
    box-shadow: 0 0 10px rgba(255, 205, 97, 0.3);
 }
@@ -226,7 +247,14 @@ a:hover{
    background-position: center;
    background-size: cover;
 }
-
+.img-testimonial{
+   width: 384px;
+   height: 491px;
+   background-size: cover;
+   background-position: center;
+   border-radius: 10px;
+   background-repeat: no-repeat;
+}
 .img-scroll{
    width: 100%;
    height: 360px;
@@ -244,7 +272,6 @@ a:hover{
 .img-google{
    background-image: url(/assets/image/google.png);
 }
-
 .img-1{
    background-image: url(/assets/image/image\ 1.png);
 }
@@ -281,6 +308,12 @@ a:hover{
 .img-12{
    background-image: url(/assets/image/bike4.png);
 }
+.img-13{
+   background-image: url(/assets/image/home.png);
+}
+.img-14{
+   background-image: url(/assets/image/testimoni.png);
+}
 footer{
    min-height: 470px;
    
@@ -297,6 +330,9 @@ footer{
 .py-7{
    padding-top: 6.5rem !important;
    padding-bottom: 6.5rem !important;
+}
+.mt-6{
+   margin-top: 6.5rem !important;
 }
 
 ul{
@@ -339,7 +375,22 @@ ul{
    flex-direction: column;
    justify-content: end;
 }
-
+.card-name-3{
+   position: absolute;
+   width: 132px;
+   height: 60px;
+   bottom: 0;
+   right: 0;
+   border-top-left-radius: 10px;
+   background-color: white;
+}
+.icon-arrow-down{
+   position: absolute;
+   font-size: 24px;
+   padding-top: 1rem;
+   padding-right: 1.5rem;
+   right: 0;
+}
 .fs-0-0{
    font-size: 64px;
 }
@@ -377,6 +428,16 @@ ul{
 input::placeholder{
    color: white;
 }
+.explore input::placeholder{
+   color: rgba(57, 57, 57, 1) !important;
+   
+}
 input:focus{
    outline: none;
+}
+input[type="date"]{
+   color: white;
+}
+.lh-2{
+   line-height: 80px;
 }
