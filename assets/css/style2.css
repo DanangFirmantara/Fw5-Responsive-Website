@@ -47,6 +47,8 @@ body{
    border: 1px solid #B8BECD;
 }
 
+
+
 .yellow{
    color: rgba(255, 205, 97, 1);
 }
@@ -197,7 +199,6 @@ a{
    width: 233px;
    background-position: center;
    background-size: cover;
-
 }
 
 .img-scroll{
@@ -296,7 +297,10 @@ ul{
 
 .fs-0{
    font-size: 48px;
-   
+}
+
+.fs-6{
+   font-size: 18px;
 }
 
 .move-1{
@@ -318,4 +322,8 @@ ul{
 
 .pe-6{
    padding-right: 6rem !important;;
+}
+
+.fw-normal-bold{
+   font-weight: 600 !important;
 }
