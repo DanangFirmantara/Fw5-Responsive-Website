@@ -1,4 +1,4 @@
-### Responsive Website
+# Responsive Website
 pada project kali ini saya membuat slicing dari sebuah website peminjaman kendaraan. fiture fiture yang tersedia yaitu:
 * Home : Tampilan halaman utama bagi user yang belum login
 * Login : halaman yang berfungsi untuk proses login dari user
@@ -11,12 +11,12 @@ pada project kali ini saya membuat slicing dari sebuah website peminjaman kendar
 * history : halaman history kendaraan yang sedang diproses maupun yang telah user pinjam
 * forgot-password : halaman bagi user yang lupa password
 
-### Mengunduh respository
+# Mengunduh respository
 Untuk mengunduh repository ke dalam komputer gunakan perintah berikut :
 ```
 git clone https://github.com/DanangFirmantara/fw5-responsive-website
 ```
-### Cara menggunakan repository
+# Cara menggunakan repository
 pada repository terdapat beberapa folder yang digunakan yaitu
 
 ## assets
@@ -26,20 +26,20 @@ folder assets digunakan untuk menyimpan setiap keperluan yang ada seperti
 * google-font : merupakan folder dari css setiap font yang digunakan
 * image : folder ini digunakan untuk menyimpan setiap gambar yang akan digunakan pada halaman website
 
-### Tecnology
+# Tecnology
 pada project ini menggunakan beberapa teknology yang digunakan yaitu
 * HTML : berguna sebagai kerangka dari tampilan website itu sendiri
 * CSS : digunakan untuk membuat tampilan website menjadi lebih berwarna
 * Bootstrap : digunakan sebagai fitur pembantu utama dalam memanfaatkan CSS sehingga dalam pembuatan setiap elemen menjadi lebih cepat dan mudah di responsive kan
 
-### Fitur fitur yang tersedia 
+# Fitur fitur yang tersedia 
 pada project ini saya memiliki beberapa fitur
 * button yang digunakan dibuat responsive
 * tulisan yang ditampilkan dibuat sekontras mungkin
 * warna yang diselaraskan
 * link pada setiap element dapat digunakan
 
-### Netlify
+# Netlify
 project ini telah di deploy di [netlify](https://goofy-keller-d20657.netlify.app/). cara akses :
 * [Home](https://goofy-keller-d20657.netlify.app/home-2.html)
 * [Login](https://goofy-keller-d20657.netlify.app/login-2.html)
