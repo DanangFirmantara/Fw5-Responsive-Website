@@ -21,7 +21,7 @@ pada repository ini saya menggunakan
 git clone https://github.com/DanangFirmantara/fw5-responsive-website
 
 # move into the project directory, then into the site
-cd fw-5responsive-website
+cd fw5-responsive-website
 
 # install depedencies
 npm install
