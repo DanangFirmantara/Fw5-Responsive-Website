@@ -1,5 +1,5 @@
 # Responsive Website
-pada project kali ini saya membuat slicing dari sebuah website peminjaman kendaraan. fiture fiture yang tersedia yaitu:
+pada project kali ini saya membuat slicing dari sebuah website peminjaman kendaraan. fitur fitur yang tersedia yaitu:
 * Home : Tampilan halaman utama bagi user yang belum login
 * Login : halaman yang berfungsi untuk proses login dari user
 * Sign Up : halaman yang berfungsi untuk proses registrasi bagi user
@@ -11,20 +11,24 @@ pada project kali ini saya membuat slicing dari sebuah website peminjaman kendar
 * history : halaman history kendaraan yang sedang diproses maupun yang telah user pinjam
 * forgot-password : halaman bagi user yang lupa password
 
-# Mengunduh respository
-Untuk mengunduh repository ke dalam komputer gunakan perintah berikut :
+# Local Development
+pada repository ini saya menggunakan 
+* Node v17.3.0
+* Visual Code sebagai IDE
+
 ```
+# clone repository
 git clone https://github.com/DanangFirmantara/fw5-responsive-website
-```
-Setelah mengunduh repository lalu buka ekstrak file dan buka file fw5-responsive-website. pada folder ini lakukan install perintah npm install
-```
+
+# move into the project directory, then into the site
+cd fw-5responsive-website
+
+# install depedencies
 npm install
-```
-perintah ini digunakan untuk menginstall setiap depedency yang digunakan. Setalah itu jalankan perintah berikut
-```
+
+# run local server
 npm run dev
 ```
-perintah ini berguna untuk menjalankan server pada localhost dan website dapat diakses pada browser dengan mengakses file malalui browser
 
 # Cara menggunakan repository
 pada repository terdapat beberapa folder yang digunakan yaitu
