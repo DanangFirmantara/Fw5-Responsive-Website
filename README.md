@@ -18,6 +18,7 @@ git clone https://github.com/DanangFirmantara/fw5-responsive-website
 ```
 ### Cara menggunakan repository
 pada repository terdapat beberapa folder yang digunakan yaitu
+
 ## assets
 folder assets digunakan untuk menyimpan setiap keperluan yang ada seperti
 * bootstrap : berisi file file yang berasal dari bootstrap
@@ -52,6 +53,6 @@ project ini telah di deploy di [netlify](https://goofy-keller-d20657.netlify.app
 * [vehicle Type](https://goofy-keller-d20657.netlify.app/vehicle-type.html)
 
 ### jika ada pertanyaan
-Jika ada pertanyaan mengenai project ini silahkan kontak saya di:
-[instagram](https://www.instagram.com/danangf14)
-Email : danangfirmantara837@gmail.com
+Jika ada pertanyaan mengenai project ini silahkan kontak
+* [instagram](https://www.instagram.com/danangf14)
+* Email : danangfirmantara837@gmail.com
