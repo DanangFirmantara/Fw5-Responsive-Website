@@ -16,6 +16,16 @@ Untuk mengunduh repository ke dalam komputer gunakan perintah berikut :
 ```
 git clone https://github.com/DanangFirmantara/fw5-responsive-website
 ```
+Setelah mengunduh repository lalu buka ekstrak file dan buka file fw5-responsive-website. pada folder ini lakukan install perintah npm install
+```
+npm install
+```
+perintah ini digunakan untuk menginstall setiap depedency yang digunakan. Setalah itu jalankan perintah berikut
+```
+npm run dev
+```
+perintah ini berguna untuk menjalankan server pada localhost dan website dapat diakses pada browser dengan mengakses file malalui browser
+
 # Cara menggunakan repository
 pada repository terdapat beberapa folder yang digunakan yaitu
 
