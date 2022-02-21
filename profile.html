@@ -45,16 +45,20 @@
         </div>
         <div class="col col-auto">
           <div class="nav-link">
-            <a href="#" class="active">Home</a>
-            <a href="#">Vehicle Type</a>
-            <a href="#">History</a>
+            <a href="/home-2.html" class="active">Home</a>
+            <a href="/vehicle-type.html">Vehicle Type</a>
+            <a href="/history.html">History</a>
             <a href="#">About</a>
           </div>
         </div>
         <div class="col col-auto">
           <div class="button">
-            <button class="login">Login</button>
-            <button class="register">Register</button>
+            <a href="/login-2.html">
+              <button class="login">Login</button>
+            </a>
+            <a href="/sign-up.html">
+              <button class="register">Register</button>
+            </a>
           </div>
         </div>
       </div>
@@ -210,5 +214,21 @@ Iskandar Street no. 67 Block A Near Bus Stop</textarea
         </div>
       </footer>
     </form>
+    <!-- Jquery : digunakan untuk menghubungkan file setiap dokumen -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      $(document).ready(function () {
+        $.get("./navbar-user.html", (res) => {
+          $("#navbar-user").html(res);
+        });
+        $.get("./footer-1.html", (res) => {
+          $("#footer").html(res);
+        });
+      });
+    </script>
   </body>
 </html>
