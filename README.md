@@ -16,7 +16,7 @@ pada repository ini saya menggunakan
 * Node v17.3.0
 * Visual Code sebagai IDE
 
-```
+```bash
 # clone repository
 git clone https://github.com/DanangFirmantara/fw5-responsive-website
 
